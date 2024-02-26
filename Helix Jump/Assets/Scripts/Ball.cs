@@ -22,5 +22,7 @@ public class Ball : MonoBehaviour
 
       newSplit.transform.localScale = Vector3.one * Random.Range(0.7f, 1.3f);
       newSplit.transform.parent = other.transform;
+
+     
    }
 }
